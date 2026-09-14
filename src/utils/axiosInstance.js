@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    baseURL: import.meta.env.VITE_API_BASE_URL || "https://interview-backend-mrqy.onrender.com",
+    baseURL: import.meta.env.VITE_API_BASE_URL || "https://interviewprep-backend-xyhj.onrender.com",
     headers: {
         "Content-Type": "application/json",
     },

@@ -1,5 +1,7 @@
 const API_BASE =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:9001";
+  // import.meta.env.VITE_API_BASE_URL || "http://localhost:9001";
+  // 1 Step
+    import.meta.env.VITE_API_BASE_URL || "https://interviewprep-backend-xyhj.onrender.com"; 
 const BASE_URL = `${API_BASE}/api`;
 
 export const API_PATHS = {
